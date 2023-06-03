@@ -21,7 +21,7 @@ const AddTicketForm = () => {
         };
         console.log(JSON.stringify(ticketData))
         try {
-            const response = await fetch('http://localhost:8080/tickets', {
+            const response = await fetch('https://coursework-8hlk.onrender.com/tickets', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

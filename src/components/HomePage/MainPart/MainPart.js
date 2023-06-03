@@ -22,7 +22,7 @@ const MainPart = () => {
 
     const handleTicketDeleteClick = async (itemId) => {
         try {
-            const response = await fetch(`http://localhost:8080/tickets/${itemId}`, {
+            const response = await fetch(`https://coursework-8hlk.onrender.com/tickets/${itemId}`, {
                 method: 'DELETE'
             });
             // обробка відповіді сервера
