@@ -1,0 +1,154 @@
+.main-part {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+.tickets-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+}
+
+.control-panel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.5);
+    margin-top: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.control-panel div:nth-child(1) {
+     margin-left: 100px;
+}
+
+.control-panel div:nth-child(1) input{
+    margin-left: 10px;
+}
+
+.control-panel div:nth-child(2) {
+    margin-left: 120px;
+}
+
+.control-panel div:nth-child(2) input{
+    margin-left: 10px;
+}
+
+.control-panel div {
+    display: flex;
+    flex-direction: row;
+}
+
+.control-panel div input {
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    .tickets-table td {
+        display: block;
+    }
+
+    .tickets-table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+
+    .tickets-table td p {
+        margin-left: 120px;
+    }
+}
+
+.table-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-head td {
+    display: flex;
+    width: 200px;
+    border-right: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.table-head td:nth-child(1) {
+    border-left: none;
+}
+
+.table-head td:nth-child(6) {
+    border-right: none;
+}
+
+.table-head td:nth-child(7) {
+    border-right: none;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-row td {
+    align-items: center;
+    width: 200px;
+    display: flex;
+    border-right: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    height: 70px;
+}
+
+.table-row td p {
+    margin: 0;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.table-row td:nth-child(7) {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.table-row td:nth-child(7) p {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-row td:nth-child(7):hover {
+    background: rgb(255, 0, 0, 0.6);
+    color: white;
+}
+
+.main-part input[type="text"],
+.main-part input[type="number"],
+.main-part input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.main-part input[type="text"]:focus,
+.main-part input[type="number"]:focus,
+.main-part input[type="date"]:focus {
+    outline: none;
+    border-color: #777;
+}
+
+

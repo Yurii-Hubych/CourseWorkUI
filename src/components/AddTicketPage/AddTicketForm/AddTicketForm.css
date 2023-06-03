@@ -1,0 +1,108 @@
+.add-ticket-form {
+    width: 600px;
+    height: 700px;
+    background: rgba(255, 0, 0, 0.5);
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.add-ticket-form input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-ticket-form input[type="submit"]:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.add-ticket-form-field1 {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+.add-ticket-form-field1 input {
+    margin-left: 10px;
+}
+
+.add-ticket-form-field2 {
+    margin-top: 50px;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 20px;
+}
+
+.add-ticket-form-field2 input {
+    margin-left: 10px;
+}
+
+.add-ticket-form-field3 {
+    margin-top: 50px;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 20px;
+}
+
+.add-ticket-form-field3 input {
+    margin-left: 10px;
+}
+
+.add-ticket-form-field4 {
+    margin-top: 50px;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 20px;
+}
+
+.add-ticket-form-field4 input {
+    margin-left: 10px;
+}
+
+.add-ticket-form-field5 {
+    margin-top: 50px;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 20px;
+}
+
+.add-ticket-form-field5 input {
+    margin-left: 10px;
+}
+
+.add-ticket-form-field6 {
+    margin-top: 50px;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 20px;
+}
+
+.add-ticket-form-field6 input {
+    margin-left: 10px;
+}
+
+.add-ticket-form-submit {
+    margin-top: 50px;
+}
+
+.add-ticket-form input[type="text"],
+.add-ticket-form input[type="number"],
+.add-ticket-form input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-ticket-form input[type="text"]:focus,
+.add-ticket-form input[type="number"]:focus,
+.add-ticket-form input[type="date"]:focus {
+    outline: none;
+    border-color: #777;
+}
+
