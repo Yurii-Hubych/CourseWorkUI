@@ -44,6 +44,11 @@
     margin-left: 10px;
 }
 
+.tickets-table tbody tr td:nth-child(5) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .control-panel div {
     display: flex;
     flex-direction: row;
