@@ -1,4 +1,72 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
 .home-page {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page-left-side {
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    z-index: 2;
+}
+
+.home-page-left-side-text {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.home-page p:nth-child(1){
+    color: #0d4c93;
+}
+
+.home-page p:nth-child(2){
+    color: #0d4c93;
+}
+
+.home-page p:nth-child(3){
+    color: rgba(27, 149, 164, 1);
+}
+
+.home-page-left-side-buttons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.home-page-left-side-button1 {
+    background-color: rgba(27, 149, 164, 0.99);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 40px;
+    border-radius: 3px;
+}
+
+.home-page-left-side-button1:hover {
+    background-color: white;
+    color: rgba(27, 149, 164, 0.99);
+    outline: 2px solid rgba(27, 149, 164, 0.99);
+}
+
+.home-page-left-side-button2 {
+    background-color: rgba(27, 149, 164, 0.99);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+.home-page-left-side-button2:hover {
+    background-color: white;
+    color: rgba(27, 149, 164, 0.99);
+    outline: 2px solid rgba(27, 149, 164, 0.99);
 }

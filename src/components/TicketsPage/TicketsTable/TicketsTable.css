@@ -3,10 +3,11 @@
     flex-direction: column;
     padding: 0;
     margin: 0;
-    padding-bottom: 200px;
+    z-index: 2;
 }
 
 .tickets-table {
+    background: white;
     margin-left: auto;
     margin-right: auto;
     width: 1400px;
@@ -20,12 +21,16 @@
     margin-right: auto;
     width: 1400px;
     height: 100px;
-    background: rgba(255, 0, 0, 0.5);
+    background: linear-gradient(to top right, #2cbbda 0%, #0c53a8 100%);
     margin-top: 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     display: flex;
     align-items: center;
+}
+
+.control-panel input {
+    background: #ffffff;
 }
 
 .control-panel div:nth-child(1) {

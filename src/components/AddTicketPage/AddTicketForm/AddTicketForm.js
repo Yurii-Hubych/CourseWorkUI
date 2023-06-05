@@ -64,33 +64,33 @@ const AddTicketForm = () => {
     return (
         <form className="add-ticket-form" onSubmit={handleSubmit}>
             <label className="add-ticket-form-field1">
-                Flight Number:
+                Номер рейсу:
                 <input type="number" value={flightNumber} onChange={handleFlightNumberChange} />
                 {flightNumberError && <div>{flightNumberError}</div>}
             </label>
             <br />
             <label className="add-ticket-form-field2">
-                Destination:
+                Пункт призначення:
                 <input type="text" value={destination} onChange={event => setDestination(event.target.value)} />
             </label>
             <br />
             <label className="add-ticket-form-field3">
-                First Name:
+                Ім'я:
                 <input type="text" value={firstName} onChange={event => setFirstName(event.target.value)} />
             </label>
             <br />
             <label className="add-ticket-form-field4">
-                Second Name:
+                Прізвище:
                 <input type="text" value={secondName} onChange={event => setSecondName(event.target.value)} />
             </label>
             <br />
             <label className="add-ticket-form-field5">
-                Middle Name:
+                По-батькові:
                 <input type="text" value={middleName} onChange={event => setMiddleName(event.target.value)} />
             </label>
             <br />
             <label className="add-ticket-form-field6">
-                Departure Date:
+                Дата вильоту:
                 <input type="date" value={departureDate} onChange={event => setDepartureDate(event.target.value)} />
             </label>
             <br />

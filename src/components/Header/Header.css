@@ -1,21 +1,62 @@
 .header{
     height: 83px;
-    border-bottom: #282c34 1px solid;
     width: 100%;
     display: flex;
     align-items: center;
+    background: transparent;
+    z-index: 1;
+}
+
+.align-header-left {
+    margin-left: 550px;
 }
 
 .header div {
-    height: 83px;
     display: flex;
     align-items: center;
-    width: 300px;
     justify-content: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.header div p {
+    font-size: 20px;
+    height: 14px;
+    user-select: none;
+}
+
+.header div:nth-child(2) p {
+    margin-left: 20px;
+}
+
+.header div:nth-child(3) p {
+    margin-left: 20px;
+}
+
+.header div:nth-child(4) p {
+    margin-left: 20px;
+}
+
+.header div:nth-child(5) p {
+    margin-left: 20px;
+}
+
+.header div:nth-child(6) p {
+    margin-left: 20px;
+}
+
+.header div:nth-child(1) img {
+    height: 50px;
+    width: 200px;
+    z-index: 1;
+}
+
+.header div:nth-child(1) {
+    margin-left: 50px;
 }
 
 @media (max-width: 600px) {
@@ -24,26 +65,22 @@
     }
 }
 
-.header div:nth-child(1) {
-    filter: drop-shadow(3px 2px 14px rgba(0, 0, 0, 0.09));
-    background: red;
-    color: white;
-    font-size: 22px;
+.align-header-left div:nth-child(1) {
+    filter: drop-shadow(3px 2px 14px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
 }
 
-.header div:nth-child(2) {
-    border-right: #282c34 1px solid;
-    background: #FFFFFF;
+.align-header-left div:nth-child(2) {
+    filter: drop-shadow(3px 2px 14px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
 }
 
-.header div:nth-child(3) {
-    background: #FFFFFF;
-    border-right: #282c34 1px solid;
+.align-header-left div:nth-child(3) {
+    filter: drop-shadow(3px 2px 14px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
 }
 
-.header div:nth-child(2):hover, div:nth-child(3):hover {
-    border: none;
-    filter: drop-shadow(3px 2px 14px rgba(0, 0, 0, 0.09));
-    transform: translateX(-1px);
+.align-header-left div:nth-child(4) {
+    filter: drop-shadow(3px 2px 14px rgba(0, 0, 0, 0.5));
     cursor: pointer;
 }

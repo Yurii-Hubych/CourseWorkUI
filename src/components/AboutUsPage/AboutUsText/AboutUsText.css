@@ -1,0 +1,14 @@
+.about-us-text-div {
+    height: 200px;
+    width: 500px;
+    z-index: 2;
+    margin-left: 70px;
+    margin-top: 160px;
+}
+
+.about-us-page p {
+    color: #03474b;
+    font-weight: 500;
+    font-size: 23px;
+    z-index: 2;
+}

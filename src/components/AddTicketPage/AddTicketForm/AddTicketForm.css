@@ -1,30 +1,41 @@
 .add-ticket-form {
     width: 600px;
     height: 700px;
-    background: rgba(255, 0, 0, 0.5);
-    margin-top: 70px;
+    background-color: rgba(25, 157, 241, 0.62);
     border-radius: 15px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
 }
 
 .add-ticket-form input[type="submit"] {
-    background-color: red;
+    background-color: rgba(95, 245, 221, 0.24);
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    width: 100px;
+    margin: auto;
 }
 
 .add-ticket-form input[type="submit"]:hover {
     background-color: white;
-    color: red;
-    border: 2px solid red;
+    color: #5aa2ff;
+    border: 2px solid #5aa2ff;
 }
 
 .add-ticket-form-field1 {
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
     font-family: 'Open Sans';
     font-size: 20px;
+    margin-left: -70px;
+}
+
+.add-ticket-form input {
+    background: transparent;
+    color: white;
 }
 
 .add-ticket-form-field1 input {
@@ -32,10 +43,11 @@
 }
 
 .add-ticket-form-field2 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Open Sans';
     color: white;
     font-size: 20px;
+    margin-left: -130px;
 }
 
 .add-ticket-form-field2 input {
@@ -43,10 +55,11 @@
 }
 
 .add-ticket-form-field3 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Open Sans';
     color: white;
     font-size: 20px;
+    margin-left: 5px;
 }
 
 .add-ticket-form-field3 input {
@@ -54,10 +67,11 @@
 }
 
 .add-ticket-form-field4 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Open Sans';
     color: white;
     font-size: 20px;
+    margin-left: -45px;
 }
 
 .add-ticket-form-field4 input {
@@ -65,10 +79,11 @@
 }
 
 .add-ticket-form-field5 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Open Sans';
     color: white;
     font-size: 20px;
+    margin-left: -63px;
 }
 
 .add-ticket-form-field5 input {
@@ -76,10 +91,11 @@
 }
 
 .add-ticket-form-field6 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Open Sans';
     color: white;
     font-size: 20px;
+    margin-left: -70px;
 }
 
 .add-ticket-form-field6 input {
@@ -87,7 +103,7 @@
 }
 
 .add-ticket-form-submit {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .add-ticket-form input[type="text"],
@@ -103,6 +119,26 @@
 .add-ticket-form input[type="number"]:focus,
 .add-ticket-form input[type="date"]:focus {
     outline: none;
-    border-color: #777;
+    border-color: #2d2d2d;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.fullscreen-div {
+    width: 100%;
+    height: 100vh;
 }
 

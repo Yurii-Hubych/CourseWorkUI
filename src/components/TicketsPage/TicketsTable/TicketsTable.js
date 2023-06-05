@@ -1,8 +1,8 @@
-import "./MainPart.css";
+import "./TicketsTable.css";
 import {useEffect, useState} from "react";
 import api from "../../../api/axiosConfig";
 
-const MainPart = () => {
+const TicketsTable = () => {
 
     const [tickets, setTickets] = useState([]);
 
@@ -22,7 +22,7 @@ const MainPart = () => {
 
     const handleTicketDeleteClick = async (itemId) => {
         try {
-            const response = await fetch(`https://coursework-8hlk.onrender.com/tickets/${itemId}`, {
+            const response = await fetch(`https://coursework-8hlk.onrender.com/${itemId}`, {
                 method: 'DELETE'
             });
             // обробка відповіді сервера
@@ -96,4 +96,4 @@ const MainPart = () => {
     )
 }
 
-export default MainPart
+export default TicketsTable
