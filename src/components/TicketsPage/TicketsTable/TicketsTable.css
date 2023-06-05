@@ -128,19 +128,19 @@
     margin-left: 15px;
 }
 
-.table-row td:nth-child(7) {
+.table-row td:nth-child(8) {
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.table-row td:nth-child(7) p {
+.table-row td:nth-child(8) p {
     margin: 0;
     align-items: center;
     justify-content: center;
 }
 
-.table-row td:nth-child(7):hover {
+.table-row td:nth-child(8):hover {
     background: rgb(255, 0, 0, 0.6);
     color: white;
 }

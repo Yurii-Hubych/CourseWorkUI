@@ -22,7 +22,7 @@ const TicketsTable = () => {
 
     const handleTicketDeleteClick = async (itemId) => {
         try {
-            const response = await fetch(`https://coursework-8hlk.onrender.com/${itemId}`, {
+            const response = await fetch(`https://coursework-8hlk.onrender.com/tickets/${itemId}`, {
                 method: 'DELETE'
             });
             // обробка відповіді сервера
@@ -69,7 +69,8 @@ const TicketsTable = () => {
             </div>
             <table className="tickets-table">
                 <th className="table-head">
-                    <td className="first-td">Прізвище</td>
+                    <td className="first-td">№</td>
+                    <td>Прізвище</td>
                     <td>Ім'я</td>
                     <td>По-батькові</td>
                     <td>Дата вильоту</td>
@@ -78,8 +79,9 @@ const TicketsTable = () => {
                     <td></td>
                 </th>
                 <tbody>
-                {filteredTickets.map((ticket) => (
+                {filteredTickets.map((ticket, index) => (
                     <tr key={ticket.idString} className="table-row">
+                        <td data-label="№"><p>{index + 1}</p></td>
                         <td data-label="Прізвище"><p>{ticket.secondName}</p></td>
                         <td data-label="Ім'я"><p>{ticket.firstName}</p></td>
                         <td data-label="По-батькові"><p>{ticket.middleName}</p></td>
