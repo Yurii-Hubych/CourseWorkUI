@@ -23,6 +23,10 @@
     z-index: 2;
 }
 
+.header div:nth-child(1) img {
+    cursor: pointer;
+}
+
 .header div p {
     font-size: 20px;
     height: 14px;

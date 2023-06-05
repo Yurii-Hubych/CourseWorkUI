@@ -25,7 +25,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <div><img src={require("../../resources/logo-min.png")} alt="err"/></div>
+            <div><img src={require("../../resources/logo-min.png")} alt="err" onClick={goToMainPageClick}/></div>
             <div className="align-header-left">
                 <div onClick={goToMainPageClick}><p>Головна сторінка</p></div>
                 <div onClick={goToAboutUsPageClick}><p>Про нас</p></div>
