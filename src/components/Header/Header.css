@@ -8,7 +8,8 @@
 }
 
 .align-header-left {
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: 50px;
 }
 
 .header div {
